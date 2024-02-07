@@ -7,3 +7,4 @@ else:
     thirsty = input('Are you thirsty? ')
     if thirsty.capitalize() == 'Yes':
         print('drink water')
+        print('drink soda!')
