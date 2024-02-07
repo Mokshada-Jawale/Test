@@ -5,4 +5,7 @@ if hungry.capitalize() == 'Yes':
     print('Eat burger')
     print('Eat fries')
 else:
-    print('Do your homework.')
+    thirsty = input('Are you thirsty? ')
+    if thirsty.capitalize() == 'Yes':
+        print('drink water')
+        print('drink soda!')
